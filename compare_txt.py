@@ -1,3 +1,5 @@
+# Nonthanut (KK) Petchpichai
+
 import sys
 
 def normalize_line(line):
@@ -31,4 +33,5 @@ if __name__ == "__main__":
         print("Usage: python compare_txt_files.py <file1> <file2>")
         sys.exit(1)
     
+
     compare_txt_files(sys.argv[1], sys.argv[2])
