@@ -1,3 +1,7 @@
+# This program convert Brighton Vibhavadi's specific csv into text file containing
+# person's id and time
+# Nonthanut (KK) Petchpichai
+
 import csv
 import sys
 
@@ -33,4 +37,5 @@ if __name__ == "__main__":
     
     input_csv = sys.argv[1]
     output_txt = sys.argv[2]
+
     csv_to_txt(input_csv, output_txt)
